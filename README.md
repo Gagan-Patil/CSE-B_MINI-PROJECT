@@ -16,9 +16,6 @@ The editor is entirely keyboard-driven. Use the following keys from the main can
 * **Soft Deletion:** When a shape is deleted, its `active` flag is set to `0` rather than shifting array memory. (Note: New shapes will claim inactive slots to prevent memory leaks).
 * **Popup Architecture:** Input prompts utilize sub-windows in `ncurses` with `touchwin()` and `wrefresh()` to prevent graphical ghosting when returning to the main canvas.
 
-## 📄 License
-
-This project is open-source and available under theHere is a clean, professional, and highly scannable `README.md` tailored for your repository. It covers everything a visitor needs to know to compile, run, and understand your project.
 ```markdown
 # 🎨 2D ASCII Graphics Editor
 
